@@ -9,3 +9,10 @@
   line-height: inherit;
   color:inherit;
 }
+.hero{
+  outline:1px solid red;
+  height:100vh
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
