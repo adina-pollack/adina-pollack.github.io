@@ -8,7 +8,6 @@
   text-decoration: inherit;
   line-height: inherit;
   color:inherit;
-  box-sizing: border-box;
 }
 html, body{
   background-image: url("images/pixelbackground.jpg");
@@ -23,8 +22,6 @@ h1{
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 5px;
-  display: flex;
-  justify-content: center;
 }
 h2{
   font-size: 25px;
@@ -67,10 +64,10 @@ section{
   padding-left: 50px;
   overflow: hidden;
 }
-.hero p:first-of-type{
+.hero p:first-child{
   padding-top: 50px;
 }
-.hero p:last-of-type{
+.hero p:last-child{
   font-size: 20px;
 }
 
