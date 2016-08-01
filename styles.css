@@ -35,7 +35,7 @@ section{
   max-width: 850px;
   margin: 0 auto;
 }
-.header{
+.fixedTop{
   position: fixed;
   width: 100%;
   background: inherit;
