@@ -10,7 +10,7 @@
   color:inherit;
 }
 html, body{
-  background-image: url("images/pixelbackground.jpg");
+  background-image: url("/images/pixelbackground.jpg");
   color:#2F2F2F;
   width:100%;
   margin:0 auto;
