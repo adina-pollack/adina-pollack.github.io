@@ -75,10 +75,9 @@ section{
   width:250px;
   border-radius: 50%;
   overflow: hidden;
-  /*padding: 9px;*/
   margin: 0 auto;
   float:left;
-}
+  }
 .headshot img{
   width:100%;
   height:100%;
