@@ -1,78 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Adina Pollack</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-      <h1>Adina Pollack</h1>
-      <h2>Web Development Student Extraordinaire</h2>
-      <ul class="nav">
-        <li><a href="#about">About Adina</a></li>
-        <li><a href="#skills">The 411</a></li>
-        <li><a href="#work">Work Experience</a></li>
-        <li><a href="#contact">Contact Adina</a></li>
-      </ul>
-      <section class="hero">
-        <header>
-          <div class="headshot">
-            <img src="adina.jpg" alt="Adina's Headshot"/>
+<head>
+  <title>Adina Pollack</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Lato:300|Raleway:200|Roboto:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>Adina Pollack</h1>
+    <h2>Web Developer Extraordinaire</h2>
+    <ul class="nav">
+      <li><a href="#about">About Adina</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">The 411</a></li>
+      <li><a href="#work">Work Experience</a></li>
+      <li><a href="#contact">Contact Adina</a></li>
+    </ul>
+  </div>
+  <div class="spacer">
+    &nbsp;
+  </div>
+  <div class="content">
+    <section class="hero">
+      <header>
+        <div class="headshot">
+          <img src="images/adina_headshot.jpg" alt="Adina's Headshot"/>
+        </div>
+        <div class="quote">
+          <p>"If I hadn't believed it, I wouldn't have seen it."</p>
+          <p>Dr. Mieka Brand Polanco</p>
+        </div>
+      </header>
+    </section>
+    <section id="about">
+      <div class="spacer">
+        &nbsp;
+      </div>
+      <h2>Who is Adina?</h2>
+      <p> An energetic, loyal full stack web developer who's a committed and enthusiastic problem solver, capable of working with others and creatively multi-tasking to manage and accomplish any goals.</p>
+      <p>Adina is an General Assembly Web Development Immersive student. She will be graduating from the course in August 2016, ready to take on the world of programming!</p>
+      <p>Having been born in the District of Columbia, Adina can claim to be a true DC local. She was raised in Falls Church, Virginia, along with her twin sister, Danielle. Adina attended James Madison University, in Harrisonburg, Virginia, where she graduated with a B.A. in Anthropology. She currently resides back in Falls Church.</p>
+    </section>
+    <section id="projects">
+      <div class="spacer">
+        &nbsp;
+      </div>
+      <h2>Projects<h2>
+        <a href="https://help-need-tacos.herokuapp.com/">
+          <div class="needtacos">
+            <div id="tacoImage">
+              <img src="images/Need TacosScreenshot.jpg"/>
+            </div>
+            <h2 id="tacoTitle">Help! Need Tacos.</h2>
           </div>
-          <div class="quote">
-            <p>"I wouldn't have seen it if I hadn't believed it."</p>
-            <p>Marshall McLuhan</p>
+        </a>
+        <a href="http://gig-mappr.bitballoon.com/">
+          <div class="gigMappr">
+            <div id="gigImage">
+              <img src="images/gig+mappr screenshot.jpg"/>
+            </div>
+            <h2 id="gigTitle">Gig<small>+</small>Mappr</h2>
           </div>
-        </header>
-      </section>
-      <section id="about">
-        <h1>Who is Adina?</h1>
-        <p>Adina is an awesome General Assembly Web Development Immersive student. She will be graduating from the course in August, 2016, ready to take on the world of programming!</p>
-        <p>Having been born in the District of Columbia, Adina can claim to be a true DC local. She was raised in Falls Church, Virgina, along with her twin sister, Danielle. Adina attended James Madison University, in Harrisonburg, Virginia, where she graduated with a B.A. in Anthropology. She currently resides back in Falls Church.</p>
+        </a>
       </section>
       <section id="skills">
-        <h1>The 411</h1>
-        <h2>Web Skills:</h2>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS / SASS</li>
-          <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>PostgreSQL</li>
-          <li>MongoDB</li>
-          <li>Rails</li>
-          <li>Node.js / Express</li>
-          <li>Angular.js</li>
-        </ul>
+        <div class="spacer">
+          &nbsp;
+        </div>
+        <h2>The 411</h2>
+        <h3>Web Skills:</h3>
+          <p><strong>Languages &amp; Frameworks:</strong> JavaScript | jQuery | HTML | CSS | Ruby | Ruby on Rails | AngularJS <br>| ExpressJS |  Node.js</p>
+          <p><strong>Management &amp; Deployment:</strong> Git | GitHub | Heroku</p>
+          <p><strong>Databases &amp; ORMs:</strong> SQL | PostgreSQL | Active Record | MongoDB | Mongoose | Firebase</p>
+          <p><strong>Methodologies:</strong> OOP | MVC Pattern | TDD  | Responsive Design | Authentication | User Stories <br> | ERDs | Wireframing</p>
       </section>
       <section id="work">
-        <h1>Work Experience</h1>
-        <h2>IT Project Coordinator</h2>
-        <h3><strong>Edison Electric Institute<br><em>October 2013 to May 2016</em></strong></h3>
-          <p>Managed and coordinated EEI's meeting application program by serving as the conduit between groups interested in creating an application and the vendor who provides the software. This included being the main point of contact for contract negotiations and billing, conducting software training for relevant EEI staff and coordinating with the vendor project manager. Was responsible for app content and setup for high level meetings such as the EEI Board and Chief Executive Committee meetings and the EEI Annual Convention.</p>
-          <p>Administered and coordinated EEI's cyber security program including setup and selection of phishing emails, templates, and training programs available to EEI staff; participated in weekly status calls with vendor; ran weekly training completion reports that are presented to Officers.</p>
-          <p>Produced Executive Summaries detailing large IT projects, vendor selections and new IT policies.</p>
-          <p>Managed SharePoint website content for The Grid (intranet), USWAG and other EEI related sites.</p>
-          <p>Served as budget coordinator for the IT department.</p>
-          <p>Maintained spreadsheet that tracked all large- and small-scale technology projects to ensure deliverables were met on time and within budget.</p>
-        <h2>Administrative Assitant for the Center for Energy Workforce Development</h2>
-        <h3><strong>Edison Electric Institute<br><em>October 2011 to October 2013</em></strong></h3>
-          <p>Coordinated with six main consultants to keep the organization running in an efficient and productive manner.</p>
-          <p>Oversaw membership through the management of the yearly invoicing for membership contributions and processing of new members into Avectra CRM system.</p>
-          <p>Finalized the submission of consultant and vendor contracts, contract renewals and amendments.</p>
-          <p>Planned and prepared for regional meetings and the Annual Convention through the set up and management of event registration, reviewed agendas and presentations, and served as the main contact between event attendees and the organization.</p>
-          <p>Managed accounting and processing of invoices in SharePoint by creating vendor requests, purchase requests, and purchase order amendments.</p>
-        <h2>Intern to Office of Community Support for Military Families with Special Needs</h2>
-        <h3><strong>The Washington Center - Department of Defence<br><em>Summer 2010</em></strong></h3>
-          <p>Reviewed and revised existing Department of Defense policies.</p>
-          <p>Wrote new policies for the handling of special needs families in the military.</p>
-          <p>Obtained a Secret Security Clearance.</p>
-      </section>
-      <section id="contact">
-        <h1>The Rolodex</h1>
-        <p><strong>Email:</strong> <a href="mailto:adinap16@gmail.com">adinap16@gmail.com</a></p>
-        <p><strong>Digits:</strong> 703-380-4965</p>
-      </section>
-    </body>
-</html>
+        <div class="spacer">
+          &nbsp;
+        </div>
+        <h2>Work Experience</h2>
+        <h3>IT Project Coordinator</h3>
+        <h4><strong>Edison Electric Institute (EEI)</strong></h4>
+        <h5><em>October 2013 to May 2016</em></h5>
+          <p>As Project Coordinator, Adina managed and coordinated EEI&#39;s meeting app program, with 21 individual meetings using an app. This included conducting in-person software training for relevant EEI staff, creating instruction manuals specific to EEI's needs and managing the relationship with the vendor who provided the software and hosting for the apps. Adina was responsible for app content and setup for high level meetings such as the EEI Board and Chief Executive Committee meetings and the EEI Annual Convention. Additionally, she administered and coordinated EEI&#39;s cyber security program including setup and selection of phishing emails, templates, and training programs available to EEI staff.</p>
+          <p>On the administrative side of things, Adina produced Executive Summaries detailing large IT projects, vendor selections and new IT policies and managed SharePoint website content for The Grid (intranet), USWAG and other EEI related sites. She also served as budget coordinator for the IT department and maintained a tracking tool for all large- and small-scale technology projects to ensure deliverables were met on time and within budget.</p>
+        <h3>Administrative Assitant for the Center for Energy Workforce Development</h3>
+        <h4><strong>Edison Electric Institute</strong></h5>
+        <h5><em>October 2011 to October 2013</em></h4>
+          <p>In this position, Adina managed six main consultants as well as organization/individual membership. This included planning and preparing for regional meetings and the annual national conference. Adina oversaw yearly invoicing for membership contributions, handled contract renewals for consultants and vendors, and managed the staff email account and phone line to handle inquiries from members and interested parties.</p>
+
+        </section>
+        <section id="contact">
+          <h2>The Rolodex</h2>
+          <p><strong>Email:</strong> <a href="mailto:adinap16@gmail.com">adinap16@gmail.com</a></p>
+          <p><strong>Digits:</strong> 703-380-4965</p>
+          <a href="https://www.linkedin.com/pub/adina-pollack/29/232/31a">
+
+            <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Adina Pollack's profile on LinkedIn">
+
+          </a>
+          <a href="https://github.com/adina-pollack">
+            <img src="images/GitHub-Mark-32px.png">
+          </a>
+        </section>
+        </div>
+      </body>
+      </html>
