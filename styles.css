@@ -71,7 +71,7 @@ section{
   font-size: 20px;
 }
 
-div.headshot{
+.headshot{
   width:250px;
   border-radius: 50%;
   overflow: hidden;
@@ -79,7 +79,7 @@ div.headshot{
   margin: 0 auto;
   float:left;
 }
-div.headshot img{
+.headshot img{
   width:100%;
   height:100%;
 }
