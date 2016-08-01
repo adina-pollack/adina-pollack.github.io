@@ -10,7 +10,7 @@
   color:inherit;
 }
 html, body{
-  background-image: url("images/pixelbackground.jpg");
+  background-image: url("./images/pixelbackground.jpg");
   color:#2F2F2F;
   width:100%;
   margin:0 auto;
@@ -46,7 +46,7 @@ section{
 }
 
 .hero{
-  height:80vh;
+  height: 90px;
   display:flex;
   flex-direction:column;
   justify-content:center;
