@@ -11,9 +11,7 @@
   box-sizing: border-box;
 }
 html, body{
-  /*text-shadow: 0.5px 0.5px 0px #fff;*/
-  /*background-color: #55E6E8;*/
-  background-image: url("pixelbackground.jpg");
+  background-image: url("images/pixelbackground.jpg");
   color:#2F2F2F;
   width:100%;
   margin:0 auto;
