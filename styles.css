@@ -44,6 +44,7 @@ header{
   position: fixed;
   width: 100%;
   background: inherit;
+  top: 0;
 }
 .spacer{
     width: 100%;
@@ -237,6 +238,9 @@ small{
   }
   section h2{
     font-size: 30px;
+  }
+  section h3{
+    font-size: 20px;
   }
   #gigTitle, #tacoTitle{
     font-size: 30px;
