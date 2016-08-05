@@ -14,9 +14,14 @@ html, body{
   color:#2F2F2F;
   width:100%;
   margin:0 auto;
-
 }
-h1{
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+header h1{
   font-size: 55px;
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -31,29 +36,29 @@ h2{
 }
 section{
   border-top: 2px dotted #DCF4E5;
-  padding: 50px 0;
+  padding: 100px 0;
   max-width: 850px;
   margin: 0 auto;
 }
-.fixedTop{
+header{
   position: fixed;
   width: 100%;
   background: inherit;
 }
 .spacer{
     width: 100%;
-    height: 115px;
+    height: 100px;
 }
 
 .hero{
   height: 90px;
-  display:flex;
+  /*display:flex;*/
   flex-direction:column;
   justify-content:center;
   border: 0;
   margin: 0 auto;
-  padding-top: 300px;
-  padding-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 350px;
 }
 .hero p{
   font-size: 30px;
@@ -183,4 +188,110 @@ small{
 #projects h2{
   padding-top: 10px;
   padding-bottom: 30px;
+}
+
+@media screen and (max-width: 620px){
+  main{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  header{
+    position: fixed;
+  }
+  p{
+   font-size: 18px;
+  }
+  h2{
+    padding-bottom: 7px;
+    border-bottom: 5px black;
+  }
+  .hero{
+    flex-direction: row;
+    max-width: 300px;
+  }
+  .hero p{
+    font-size: 18px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .hero p:last-child{
+    font-size: 18px;
+  }
+
+  .headshot{
+    padding-top: 50px;
+    overflow: visible;
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+  .headshot img{
+    width: 65%;
+    height: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  section{
+    padding-top: 20px;
+  }
+  section h2{
+    font-size: 30px;
+  }
+  #gigTitle, #tacoTitle{
+    font-size: 30px;
+  }
+  #gigImage, #tacoImage{
+    max-width: 620px;
+  }
+  #tacoImage img{
+    width: 100%;
+  }
+  #gigImage img{
+    width: 100%;
+  }
+  #divider{
+    background-color: #2F2F2F;
+    height: 2px;
+    width: 75%;
+    margin: 0 auto;
+  }
+  .hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:0px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.nav{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; display: flex; flex-direction: column; position; text-align:center;}
+.nav ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.nav li {display: block; border-bottom:#1d1f20 1px solid;}
+.nav li:hover{display: block; border-bottom:#1d1f20 1px solid;}
+.nav ul li a { text-decoration:none;  margin: 0px; color:#fff;}
+.nav ul li a:hover {  color: #fff; text-decoration:none;}
+.nav a{text-decoration:none; color:#2F2F2F;}
+.nav a:hover{text-decoration:none; color:#2F2F2F;}
 }
