@@ -35,7 +35,7 @@ $(document).ready(function(){
   $( ".cross" ).hide();
   $(".hamburger").hide();
 
-  $(window).resize(function(){
+  // $(window).resize(function(){
     if ($(window).width() < 600){
       $(".hamburger").show();
       $( ".nav" ).hide();
@@ -70,7 +70,11 @@ $(document).ready(function(){
         $("section").css("padding-top", "150px");
         $(".hero").css("padding-top", "200px");
       });
-    } else{
+    }
+
+
+    $(window).resize(function(){
+      if ($(window).width() > 600){
       $( ".cross" ).hide();
       $(".hamburger").hide();
       $(".nav").show();
