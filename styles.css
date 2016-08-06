@@ -303,6 +303,7 @@ small{
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
+    width: 100%;
   }
   p{
    font-size: 14px;
@@ -343,9 +344,6 @@ small{
   }
   header h1{
     font-size: 50px;
-  }
-  section{
-    width: 100%;
   }
   section h2{
     font-size: 30px;
