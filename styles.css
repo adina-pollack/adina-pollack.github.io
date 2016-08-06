@@ -303,7 +303,6 @@ small{
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
-    width: 100%;
   }
   p{
    font-size: 14px;
@@ -324,21 +323,22 @@ small{
     font-size: 14px;
   }
   .headshot{
-    padding-top: 7px;
+    padding-top: 0px;
     overflow: visible;
     float: none;
     display: flex;
     justify-content: center;
   }
   .headshot img{
-    width: 75%;
-    height: 75%;
+    width: 70%;
+    height: 70%;
     border-radius: 50%;
     margin: 0 auto;
   }
   .hero{
       flex-direction: row;
       max-width: 350px;
+      padding-top: 95px;
     }
   .hero p{
     font-size: 20px;
@@ -355,8 +355,11 @@ small{
     font-size: 30px;
     padding-bottom: 1px;
   }
+  .spacer{
+    height: 40px;
+  }
   section h2{
-    font-size: 30px;
+    font-size: 20px;
   }
   section h3{
     font-size: 20px;
