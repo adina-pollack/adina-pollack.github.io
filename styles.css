@@ -298,14 +298,14 @@ small{
 .nav a{text-decoration:none; color:#2F2F2F;}
 .nav a:hover{text-decoration:none; color:#2F2F2F;}
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 750px){
   main{
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
   }
   p{
-   font-size: 18px;
+   font-size: 14px;
   }
   section h2{
     font-size: 30px;
@@ -343,6 +343,9 @@ small{
   }
   header h1{
     font-size: 50px;
+  }
+  section{
+    width: 100%;
   }
   section h2{
     font-size: 30px;
