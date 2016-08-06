@@ -219,7 +219,6 @@ small{
   .hero p:last-child{
     font-size: 18px;
   }
-
   .headshot{
     padding-top: 50px;
     overflow: visible;
@@ -298,4 +297,69 @@ small{
 .nav ul li a:hover {  color: #fff; text-decoration:none;}
 .nav a{text-decoration:none; color:#2F2F2F;}
 .nav a:hover{text-decoration:none; color:#2F2F2F;}
+}
+@media screen and (max-width: 800px){
+  main{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  p{
+   font-size: 18px;
+  }
+  section h2{
+    font-size: 30px;
+  }
+  section h3{
+    font-size: 20px;
+  }
+  .nav li a{
+    font-size: 16px;
+  }
+  .headshot{
+    padding-top: 7px;
+    overflow: visible;
+    float: none;
+    display: flex;
+    justify-content: center;
+  }
+  .headshot img{
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .hero{
+      flex-direction: row;
+      max-width: 350px;
+    }
+  .hero p{
+    font-size: 20px;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .hero p:last-child{
+    font-size: 20px;
+  }
+  header h1{
+    font-size: 50px;
+  }
+  section h2{
+    font-size: 30px;
+  }
+  section h3{
+    font-size: 20px;
+  }
+  #gigTitle, #tacoTitle{
+    font-size: 35px;
+  }
+  #gigImage, #tacoImage{
+    max-width: 800px;
+  }
+  #tacoImage img{
+    width: 100%;
+  }
+  #gigImage img{
+    width: 100%;
+  }
 }
