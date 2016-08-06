@@ -305,7 +305,7 @@ small{
     padding-right: 15px;
   }
   p{
-   font-size: 14px;
+   font-size: 12px;
   }
   h2{
     font-size: 18px;
@@ -314,7 +314,7 @@ small{
     font-size: 30px;
   }
   section h3{
-    font-size: 20px;
+    font-size: 16px;
   }
   .nav{
     padding-top: 2px;
@@ -362,7 +362,10 @@ small{
     font-size: 20px;
   }
   section h3{
-    font-size: 20px;
+    font-size: 16px;
+  }
+  h4, h5{
+    font-size: 14px;
   }
   #gigTitle, #tacoTitle{
     font-size: 35px;
