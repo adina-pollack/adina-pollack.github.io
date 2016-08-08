@@ -51,7 +51,7 @@ $(document).ready(function(){
         $( ".hamburger" ).hide();
         $( ".cross" ).show();
         $("#divider").hide();
-        $(".hero").css("padding-top", "480px")
+        $(".hero").css("padding-top", "370px")
       });
     });
   }
@@ -72,7 +72,7 @@ $(document).ready(function(){
       $( ".cross" ).hide();
       $( ".hamburger" ).show();
       $("#divider").show();
-      $("section").css("padding-top", "150px");
+      $("section").css("padding-top", "100px");
       $(".hero").css("padding-top", "200px");
     });
   }
