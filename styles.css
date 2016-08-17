@@ -169,23 +169,11 @@ h5{
 #contact p{
   padding-bottom: 20px;
 }
-/*#tacoTitle {
-  font-family: 'Bungee Shade', cursive;
-  font-size: 55px;
-  text-align: center;
-}
-#gigTitle{
-  font-family: 'Raleway', sans-serif;
-  font-size: 55px;
-  text-align: center;
-  font-weight: 200;
-  text-transform: uppercase;
-  letter-spacing: 20px;
-}*/
+
 small{
   font-size: 40px;
 }
-#tacoHeader, #gigHeader{
+#tacoHeader, #gigHeader, #makeFriendsHeader{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -249,16 +237,19 @@ small{
   section h3{
     font-size: 20px;
   }
-  #gigTitle, #tacoTitle{
-    font-size: 30px;
+  #skills p{
+    font-size: 18px;
   }
-  #gigImage, #tacoImage{
+  #gigHeader, #tacoHeader, #makeFriendsHeader{
     max-width: 620px;
   }
-  #tacoImage img{
+  #tacoHeader img{
     width: 100%;
   }
-  #gigImage img{
+  #gigHeader img{
+    width: 100%;
+  }
+  #makeFriendsHeader img{
     width: 100%;
   }
   #divider{
@@ -375,16 +366,13 @@ small{
   h4, h5{
     font-size: 14px;
   }
-  #gigTitle, #tacoTitle{
-    font-size: 35px;
-  }
-  #gigImage, #tacoImage{
+  #gigHeader, #tacoHeader{
     max-width: 800px;
   }
-  #tacoImage img{
+  #tacoHeader img{
     width: 100%;
   }
-  #gigImage img{
+  #gigHeader img{
     width: 100%;
   }
 }
