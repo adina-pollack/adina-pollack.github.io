@@ -35,7 +35,6 @@ h2{
   font-family: "Lato", sans-serif;
 }
 section{
-  border-top: 2px dotted #DCF4E5;
   padding: 100px 0;
   max-width: 850px;
   margin: 0 auto;
@@ -97,7 +96,7 @@ p{
 }
 section h3{
   text-align: left;
-  font-size: 25px;
+  font-size: 28px;
   font-family: "Lato", sans-serif;
   margin: 0 auto;
   font-weight: bold;
@@ -112,11 +111,11 @@ section h2{
   padding-bottom: 5px;
   padding-bottom: 30px;
 }
-.skills p{
-  margin:20px auto;
-  font-family: 'Roboto', sans-serif;
+#skills p{
+  margin: 20px auto;
+  /*font-family: 'Roboto', sans-serif;*/
   list-style-type: square;
-  font-size: 20px;
+  font-size: 24px;
 }
 strong{
   font-weight: bold;
@@ -170,7 +169,7 @@ h5{
 #contact p{
   padding-bottom: 20px;
 }
-#tacoTitle {
+/*#tacoTitle {
   font-family: 'Bungee Shade', cursive;
   font-size: 55px;
   text-align: center;
@@ -182,9 +181,18 @@ h5{
   font-weight: 200;
   text-transform: uppercase;
   letter-spacing: 20px;
-}
+}*/
 small{
   font-size: 40px;
+}
+#tacoHeader, #gigHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#projects{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 #projects h2{
   padding-top: 10px;
