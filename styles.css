@@ -51,7 +51,7 @@ header{
 }
 
 .hero{
-  height: 90px;
+  height: 100px;
   /*display:flex;*/
   flex-direction:column;
   justify-content:center;
@@ -78,14 +78,13 @@ header{
 
 .headshot{
   width:250px;
-  border-radius: 50%;
-  overflow: hidden;
   margin: 0 auto;
   float:left;
   }
 .headshot img{
   width:100%;
-  height:100%;
+  border-radius: 50%;
+  overflow: hidden;
 }
 p{
   font-size: 20px;
@@ -173,7 +172,7 @@ h5{
 small{
   font-size: 40px;
 }
-#tacoHeader, #gigHeader, #makeFriendsHeader{
+#tacoHeader, #gigHeader, #makeFriendsHeader, #flashHeader{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,6 +184,9 @@ small{
 #projects h2{
   padding-top: 10px;
   padding-bottom: 30px;
+}
+#projects p{
+  padding-bottom: 25px;
 }
 
 @media screen and (max-width: 620px){
@@ -240,7 +242,7 @@ small{
   #skills p{
     font-size: 18px;
   }
-  #gigHeader, #tacoHeader, #makeFriendsHeader{
+  #gigHeader, #tacoHeader, #makeFriendsHeader, #flashHeader{
     max-width: 620px;
   }
   #tacoHeader img{
@@ -250,6 +252,9 @@ small{
     width: 100%;
   }
   #makeFriendsHeader img{
+    width: 100%;
+  }
+  #flashHeader img{
     width: 100%;
   }
   #divider{
