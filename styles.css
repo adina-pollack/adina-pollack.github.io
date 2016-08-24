@@ -160,11 +160,13 @@ h5{
 .nav li a:hover{
   background-color: #B7CCBE;
 }
+#contact{
+  width: 100%;
+}
 #contact a{
   padding-right: 30px;
   padding-top: 10px;
 }
-
 #contact p{
   padding-bottom: 20px;
 }
@@ -172,10 +174,38 @@ h5{
 small{
   font-size: 40px;
 }
-#tacoHeader, #gigHeader, #makeFriendsHeader, #flashHeader{
+.projectHeader{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+#tacoColorOverlay{
+  width: 683px;
+  height: 100%;
+  opacity: 0.4;
+  background-color: #FED4D8;
+  visibility: hidden;
+}
+#friendsColorOverlay{
+  width: 683px;
+  height: 100%;
+  opacity: 0.4;
+  background-color: #FACBAD;
+  visibility: hidden;
+}
+#gigColorOverlay{
+  width: 683px;
+  height: 100%;
+  opacity: 0.4;
+  background-color: #DDFDD4;
+  visibility: hidden;
+}
+#flashColorOverlay{
+  width: 683px;
+  height: 100%;
+  opacity: 0.4;
+  background-color: #BBBBBB;
+  visibility: hidden;
 }
 #projects{
   font-family: 'Roboto', sans-serif;
@@ -187,6 +217,17 @@ small{
 }
 #projects p{
   padding-bottom: 25px;
+}
+.backToTop{
+  float: right;
+}
+.backToTop img{
+  border-radius: 50%;
+  overflow: hidden;
+  transition: opacity 0.2s;
+}
+.backToTop img:hover{
+  opacity: 0.7;
 }
 
 @media screen and (max-width: 620px){
@@ -242,19 +283,34 @@ small{
   #skills p{
     font-size: 18px;
   }
-  #gigHeader, #tacoHeader, #makeFriendsHeader, #flashHeader{
+  .projectHeader{
+    max-width: 620px;
+  }
+  .colorOverlay{
     max-width: 620px;
   }
   #tacoHeader img{
     width: 100%;
   }
+  #tacoColorOverlay{
+    width: 100%;
+  }
   #gigHeader img{
+    width: 100%;
+  }
+  #gigColorOverlay{
     width: 100%;
   }
   #makeFriendsHeader img{
     width: 100%;
   }
+  #friendsColorOverlay{
+    width: 100%;
+  }
   #flashHeader img{
+    width: 100%;
+  }
+  #flashColorOverlay{
     width: 100%;
   }
   #divider{
@@ -262,6 +318,9 @@ small{
     height: 2px;
     width: 75%;
     margin: 0 auto;
+  }
+  .backToTop img{
+    float: right;
   }
   .hamburger{
   background:none;
@@ -371,13 +430,34 @@ small{
   h4, h5{
     font-size: 14px;
   }
-  #gigHeader, #tacoHeader{
+  .projectHeader{
+    max-width: 800px;
+  }
+  .colorOverlay{
     max-width: 800px;
   }
   #tacoHeader img{
     width: 100%;
   }
+  #tacoColorOverlay{
+    width: 100%;
+  }
   #gigHeader img{
+    width: 100%;
+  }
+  #gigColorOverlay{
+    width: 100%;
+  }
+  #makeFriendsHeader img{
+    width: 100%;
+  }
+  #friendsColorOverlay{
+    width: 100%;
+  }
+  #flashHeader img{
+    width: 100%;
+  }
+  #flashColorOverlay{
     width: 100%;
   }
 }

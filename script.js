@@ -1,32 +1,51 @@
 $(document).ready(function(){
-  // function showTacoPhoto(){
-  //   $("#tacoImage").show();
-  //   $("#tacoTitle").hide();
-  // }
-  //
-  // function hideTacoPhoto(){
-  //   $("#tacoImage").hide();
-  //   $("#tacoTitle").show();
-  // }
-  //
-  // function showGigPhoto(){
-  //   $("#gigImage").show();
-  //   $("#gigTitle").hide();
-  // }
-  //
-  // function hideGigPhoto(){
-  //   $("#gigImage").hide();
-  //   $("#gigTitle").show();
-  // }
-  //
-  // $("#tacoImage").hide();
-  // $("#gigImage").hide();
-  //
-  // $(".needtacos").on("mouseover", showTacoPhoto);
-  // $(".needtacos").on("mouseout", hideTacoPhoto);
-  //
-  // $(".gigMappr").on("mouseover", showGigPhoto);
-  // $(".gigMappr").on("mouseout", hideGigPhoto);
+
+  function showTacoColor(){
+    $("#tacoColorOverlay").css("visibility", "visible").css("position", "absolute")
+    $("#tacoHeader").css("position", "relative")
+  }
+  function hideTacoColor(){
+    $("#tacoColorOverlay").css("visibility", "hidden").css("position", "static")
+    $("#tacoHeader").css("position", "static")
+  }
+  function showFriendColor(){
+    $("#friendsColorOverlay").css("visibility", "visible").css("position", "absolute")
+    $("#makeFriendsHeader").css("position", "relative")
+  }
+  function hideFriendColor(){
+    $("#friendsColorOverlay").css("visibility", "hidden").css("position", "static")
+    $("#makeFriendsHeader").css("position", "static")
+  }
+
+  function showGigColor(){
+    $("#gigColorOverlay").css("visibility", "visible").css("position", "absolute")
+    $("#gigHeader").css("position", "relative")
+  }
+  function hideGigColor(){
+    $("#gigColorOverlay").css("visibility", "hidden").css("position", "static")
+    $("#gigHeader").css("position", "static")
+  }
+
+  function showFlashColor(){
+    $("#flashColorOverlay").css("visibility", "visible").css("position", "absolute")
+    $("#flashHeader").css("position", "relative")
+  }
+  function hideFlashColor(){
+    $("#flashColorOverlay").css("visibility", "hidden").css("position", "static")
+    $("#flashHeader").css("position", "static")
+  }
+
+  $("#tacoHeader").on("mouseover", showTacoColor)
+  $("#tacoHeader").on("mouseout", hideTacoColor)
+
+  $("#makeFriendsHeader").on("mouseover", showFriendColor)
+  $("#makeFriendsHeader").on("mouseout", hideFriendColor)
+
+  $("#gigHeader").on("mouseover", showGigColor)
+  $("#gigHeader").on("mouseout", hideGigColor)
+
+  $("#flashHeader").on("mouseover", showFlashColor)
+  $("#flashHeader").on("mouseout", hideFlashColor)
 
   $( ".cross" ).hide();
   $(".hamburger").hide();

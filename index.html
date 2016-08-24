@@ -24,7 +24,7 @@
     <div id="divider"></div>
   </header>
   <main>
-    <section class="hero">
+    <section class="hero" id="top">
         <div class="headshot">
           <img src="public/images/adinaheadshot.jpg" alt="Adina's Headshot"/>
         </div>
@@ -44,6 +44,11 @@
       <p>An energetic, loyal full-stack web developer who is a committed and enthusiastic problem solver. Loves working with others and creatively multi-tasking to manage and accomplish any goals.</p>
       <p>I am a General Assembly Web Development Immersive Graduate, ready to take on the world of programming!</p>
       <p>Having been born in the District of Columbia, I can claim to be a true DC local. I was raised in Falls Church, Virginia, along with my twin sister, Danielle. I attended James Madison University, in Harrisonburg, Virginia, where I graduated with a B.A. in Anthropology. I currently reside in Falls Church.</p>
+      <div class="backToTop">
+        <a href="#top">
+          <img src="public/images/back-top.jpg"/>
+        </a>
+      </div>
     </section>
 
     <section id="projects">
@@ -53,7 +58,8 @@
       <h2>Projects</h2>
         <div class="needtacos">
           <a href="https://help-need-tacos.herokuapp.com/">
-            <div id="tacoHeader">
+            <div class="projectHeader" id="tacoHeader">
+              <div class="colorOverlay" id="tacoColorOverlay"></div>
               <img src="public/images/tacoheader.jpg" alt="Help! Need Tacos. Website screenshot"/>
             </div>
           </a>
@@ -61,7 +67,8 @@
         </div>
         <div class="makeFriends">
           <a href="http://make-friends-will-travel.herokuapp.com">
-            <div id="makeFriendsHeader">
+            <div class="projectHeader" id="makeFriendsHeader">
+              <div class="colorOverlay" id="friendsColorOverlay"></div>
               <img src="public/images/travelheader.jpg" alt="Make Friends Will Travel website screenshot"/>
             </div>
           </a>
@@ -69,7 +76,8 @@
         </div>
         <div class="gigMappr">
           <a href="http://gig-mappr.bitballoon.com/">
-            <div id="gigHeader">
+            <div class="projectHeader" id="gigHeader">
+              <div class="colorOverlay" id="gigColorOverlay"></div>
               <img src="public/images/gigheader.jpg" alt="Gig+Mappr website screenshot"/>
             </div>
           </a>
@@ -77,11 +85,17 @@
         </div>
         <div class="flashMath">
           <a href="http://adinapollack.com/AdinaDoesFlashCards/">
-            <div id="flashHeader">
+            <div class="projectHeader" id="flashHeader">
+              <div class="colorOverlay" id="flashColorOverlay"></div>
               <img src="public/images/flashheader.jpg"/>
             </div>
           </a>
           <p>Flash Math was my first foray into building an application. It is a math flashcard app built with HTML, CSS and JQuery.</p>
+        </div>
+        <div class="backToTop">
+          <a href="#top">
+            <img src="public/images/back-top.jpg"/>
+          </a>
         </div>
       </section>
 
@@ -95,7 +109,13 @@
           <p><strong>Management &amp; Deployment:</strong> Git | GitHub | Heroku</p>
           <p><strong>Databases &amp; ORMs:</strong> SQL | PostgreSQL | Active Record | MongoDB | Mongoose <br>| Firebase</p>
           <p><strong>Methodologies:</strong> OOP | MVC Pattern | TDD  | Responsive Design | Authentication <br> | User Stories | ERDs | Wireframing</p>
+          <div class="backToTop">
+            <a href="#top">
+              <img src="public/images/back-top.jpg"/>
+            </a>
+          </div>
       </section>
+
       <section id="work">
         <div class="spacer">
           &nbsp;
@@ -110,12 +130,18 @@
         <h4><strong>Edison Electric Institute</strong></h4>
         <h5><em>October 2011 to October 2013</em></h5>
           <p>In this position, I managed six main consultants as well as organization/individual membership. This included planning and preparing for regional meetings and the annual national conference. I oversaw yearly invoicing for membership contributions, handled contract renewals for consultants and vendors, and managed the staff email account and phone line to handle inquiries from members and interested parties.</p>
+        <div class="backToTop">
+          <a href="#top">
+            <img src="public/images/back-top.jpg"/>
+          </a>
+        </div>
+      </section>
 
-        </section>
-        <section id="contact">
-          <h2>The Rolodex</h2>
+      <section id="contact">
+        <h2>The Rolodex</h2>
           <p><strong>Email:</strong> <a href="mailto:adinap16@gmail.com">adinap16@gmail.com</a></p>
           <p><strong>Digits:</strong> 703-380-4965</p>
+
           <a href="https://www.linkedin.com/pub/adina-pollack/29/232/31a">
             <img src="public/images/linkedin.png"alt="View Adina Pollack's profile on LinkedIn">
           </a>
@@ -125,7 +151,12 @@
           <a href="https://twitter.com/adina_pollack">
             <img src="public/images/twitter.png"/ alt="twitter logo">
           </a>
-        </section>
-      </main>
-      </body>
-      </html>
+        <div class="backToTop" id="last">
+          <a href="#top">
+            <img src="public/images/back-top.jpg"/>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
